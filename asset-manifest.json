@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Faozziyyah_Daud__JuniorFE/static/css/main.ffb35843.css",
+    "main.js": "/Faozziyyah_Daud__JuniorFE/static/js/main.52fa302a.js",
+    "static/media/Bg.png": "/Faozziyyah_Daud__JuniorFE/static/media/Bg.d7cc85ad7ec62dc18e06.png",
+    "index.html": "/Faozziyyah_Daud__JuniorFE/index.html",
+    "main.ffb35843.css.map": "/Faozziyyah_Daud__JuniorFE/static/css/main.ffb35843.css.map",
+    "main.52fa302a.js.map": "/Faozziyyah_Daud__JuniorFE/static/js/main.52fa302a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffb35843.css",
+    "static/js/main.52fa302a.js"
+  ]
+}
