@@ -15,6 +15,9 @@ A Exam proctoring website bootstrapped with [Create React App](https://github.co
 
 ## Overview
 
+### Link to the video
+- [Video Explanation](https://drive.google.com/file/d/1pYeD3E-AfNlgYcgPNcm9Ahchs8HaZtRP/view?usp=sharing) - This video explains the walkthrough of the application
+
 ### The challenge
 
 Users should be able to:
@@ -28,10 +31,6 @@ Users should be able to:
 
 ![](src/assets/screenshot.png)
 ![](src/assets/screenshot1.png)
-
-### Videos
-
-![](src/assets/video-walkthrough.mkv)
 
 ### Links
 
