@@ -18,13 +18,11 @@ A Exam proctoring website bootstrapped with [Create React App](https://github.co
 ### Link to the video
 - [Video Explanation](https://drive.google.com/file/d/1pYeD3E-AfNlgYcgPNcm9Ahchs8HaZtRP/view?usp=sharing) - This video explains the walkthrough of the application
 
+https://github.com/faozziyyah/Faozziyyah_Daud__JuniorFE/assets/65113702/bdb2f740-581f-4be3-bde9-902b73ec7fbf
+
 ### The challenge
 
 Users should be able to:
-
-https://github.com/faozziyyah/Faozziyyah_Daud__JuniorFE/assets/65113702/bdb2f740-581f-4be3-bde9-902b73ec7fbf
-
-
 
 - View the list of capsules
 - Search for capsules based on serial, type or status
