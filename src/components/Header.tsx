@@ -1,6 +1,26 @@
-import React from 'react'
+import React, {useState} from 'react'
+import hamburger from '../assets/hamburger.png'
+import close from '../assets/Frame.png'
 
 const Header = () => {
+  
+  const [nav, setNav] = useState(false);
+
+  const links = [
+    {
+      id: 1,
+      link: "about",
+    },
+    {
+      id: 3,
+      link: "capsules",
+    },
+    {
+      id: 4,
+      link: "contact",
+    },
+  ];
+
   return (
     <header className='flex flex-col justify-center items-center text-center'>
 
@@ -8,13 +28,41 @@ const Header = () => {
 
             <h1>CapsuleX</h1>
 
-            <nav className='flex justify-between items-center w-2/5'>
+            <nav className='desktop-nav flex justify-between items-center w-2/5'>
                 <a href='http' className='capitalize'>about</a>
                 <a href='http' className='capitalize'>capsules</a>
                 <a href='http' className='capitalize'>contact</a>
             </nav>
         
-            <button className='border-none outline-none rounded-2xl flex justify-center py-1 px-6'>View all</button>
+            <button className='btn1 border-none outline-none rounded-2xl flex justify-center py-1 px-6'>View all</button>
+            
+            <div onClick={() => setNav(!nav)} className="toggler md:hidden cursor-pointer">
+
+                {nav ? <img src={close} alt='logo' width='50' height='50'/> : 
+                  <img src={hamburger} alt='logo' width='30' height='30'/>
+                }
+
+            </div>
+
+            {nav && (
+            
+              <div className="mobilenav pt-4 flex flex-col items-center">
+              
+                {links.map(({ id, link }) => (
+                  <div
+                    key={id} className='mt-4'
+                  >
+                    <a className='capitalize font-semibold' onClick={() => setNav(!nav)} href={link}>
+                      {link}
+                    </a>
+                  </div>
+                ))}
+        
+                <button className='border-none outline-none rounded-2xl flex justify-center py-1 px-6 mt-8'>View all</button>
+              
+              </div>
+
+            )}
 
         </section>
         

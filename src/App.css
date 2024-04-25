@@ -55,3 +55,48 @@ input{
     cursor: pointer;
     color: #B85C38;
 }
+
+footer{
+  background-color: #B85C38;
+  color: #ffff;
+}
+
+/* mobile view */
+@media screen and (max-width: 768px) {
+
+  .desktop-nav, .btn1{
+    display: none;
+  }
+
+  header{
+    clip-path: ellipse(100% 60% at 40% 30%);
+  }
+
+  .mobilenav{
+    background-color: #E0C097;
+    position: absolute;
+    top: 5em;
+    left: 1em;
+    width: 80%;
+    height: 100vh;
+  }
+
+
+  input, .pagination{
+    width: 80%;
+  }
+
+  .capsules-container{
+    width: 90%;
+  }
+
+  .capsule-container{
+    width: 45%;
+    text-align: center;
+  }
+
+  .foottop > h1{
+    margin-bottom: 1em;
+  }
+  
+}
