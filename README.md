@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/faozziyyah/Faozziyyah_Daud__JuniorFE)
-- Live Site URL: (https://sdproctor.github.io/sdproctor/)
+- Live Site URL: (https://faozziyyah.github.io/Faozziyyah_Daud__JuniorFE/)
 
 ## My process
 ### Built with
