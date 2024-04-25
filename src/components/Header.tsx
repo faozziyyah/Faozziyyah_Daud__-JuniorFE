@@ -26,7 +26,7 @@ const Header = () => {
 
         <section className='navbar flex justify-between items-center'>
 
-            <h1>CapsuleX</h1>
+            <h1 className='font-bold'>CapsuleX</h1>
 
             <nav className='desktop-nav flex justify-between items-center w-2/5'>
                 <a href='http' className='capitalize'>about</a>
