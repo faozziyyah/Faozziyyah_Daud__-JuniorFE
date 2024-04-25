@@ -22,6 +22,10 @@ A Exam proctoring website bootstrapped with [Create React App](https://github.co
 
 Users should be able to:
 
+https://github.com/faozziyyah/Faozziyyah_Daud__JuniorFE/assets/65113702/bdb2f740-581f-4be3-bde9-902b73ec7fbf
+
+
+
 - View the list of capsules
 - Search for capsules based on serial, type or status
 - View details of each capsules
